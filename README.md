@@ -14,7 +14,7 @@
 
 #### Backend
 
-1. [Full Stack Tutorial | Backend #1 - ASP.NET Core Basics](https://youtu.be/ONd1xYvP6qU)
+1. [ASP.NET Core Basics - Backend #1 | Full Stack Tutorial](https://youtu.be/m5UzOL71feI)
 
 #### Frontend
 
