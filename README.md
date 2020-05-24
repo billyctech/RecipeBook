@@ -15,6 +15,8 @@
 #### Backend
 
 1. [Full Stack Tutorial | Backend #1 - ASP.NET Core Basics](https://youtu.be/ONd1xYvP6qU)
+2. [Docker Basics - Backend #2 | Full Stack Tutorial](https://youtu.be/mJX2SIuUkWQ)
+3. [N-Tier Architecture - Backend #3 | Full Stack Tutorial](https://youtu.be/ARJGAfdXqLU)
 
 #### Frontend
 
