@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  recipebook.api:
+    image: ${DOCKER_REGISTRY-}recipebookapi
+    build:
+      context: .
+      dockerfile: src/RecipeBook.Api/Dockerfile
+    ports:
+     - 5400:80
+     - 5401:443
