@@ -14,12 +14,13 @@
 
 #### Backend
 
-1. [ASP.NET Core Basics - Backend #1 | Full Stack Tutorial](https://youtu.be/m5UzOL71feI)
-2. [Docker Basics - Backend #2 | Full Stack Tutorial](https://youtu.be/mJX2SIuUkWQ)
-3. [N-Tier Architecture - Backend #3 | Full Stack Tutorial](https://youtu.be/ARJGAfdXqLU)
-4. [Visual Studio Folder Structure - Backend #4 | Full Stack Tutorial](https://youtu.be/OXG6OMUlAs0)
-5. [Routing & Model Binding - Backend #5 | Full Stack Tutorial](https://youtu.be/svccL46v-rg)
-
+1. [ASP.NET Core Basics #1 | Full Stack Tutorial](https://youtu.be/m5UzOL71feI)
+2. [Docker Basics #2 | Full Stack Tutorial](https://youtu.be/mJX2SIuUkWQ)
+3. [N-Tier Architecture #3 | Full Stack Tutorial](https://youtu.be/ARJGAfdXqLU)
+4. [Visual Studio Folder Structure #4 | Full Stack Tutorial](https://youtu.be/OXG6OMUlAs0)
+5. [Routing & Model Binding #5 | Full Stack Tutorial](https://youtu.be/svccL46v-rg)
+6. [Database Setup in .NET Core #6 | Full Stack Tutorial](https://youtu.be/vplezCfXr7g)
+7. [Insert w/ Dapper & Test #7a | Full Stack Tutorial](https://youtu.be/DKZlTOpU_Wk)
 
 #### Frontend
 
