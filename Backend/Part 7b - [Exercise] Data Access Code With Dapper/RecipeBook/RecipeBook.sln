@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{59BB50E3-280E-4F69-A334-2134808979C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02A76C2B-6852-4EE9-8783-760E9EE15C2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8747AD69-D634-434D-B454-AE6F8235D26C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Api", "src\RecipeBook.Api\RecipeBook.Api.csproj", "{896185C5-0B01-4602-BACC-9EF789432E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.ServiceLibrary", "src\RecipeBook.ServiceLibrary\RecipeBook.ServiceLibrary.csproj", "{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{683D4DEE-E7F9-433B-BFC5-5F47851DF61B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipeBook.Main", "src\RecipeBook.Main\RecipeBook.Main.sqlproj", "{5748CD99-E65A-4FAE-B9BA-7309954A09DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.ServiceLibrary.Tests", "tests\RecipeBook.ServiceLibrary.Tests\RecipeBook.ServiceLibrary.Tests.csproj", "{719F8E7F-D2FD-4330-A69F-3BA3F36994C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896185C5-0B01-4602-BACC-9EF789432E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896185C5-0B01-4602-BACC-9EF789432E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896185C5-0B01-4602-BACC-9EF789432E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896185C5-0B01-4602-BACC-9EF789432E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683D4DEE-E7F9-433B-BFC5-5F47851DF61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683D4DEE-E7F9-433B-BFC5-5F47851DF61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683D4DEE-E7F9-433B-BFC5-5F47851DF61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683D4DEE-E7F9-433B-BFC5-5F47851DF61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{719F8E7F-D2FD-4330-A69F-3BA3F36994C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719F8E7F-D2FD-4330-A69F-3BA3F36994C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719F8E7F-D2FD-4330-A69F-3BA3F36994C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719F8E7F-D2FD-4330-A69F-3BA3F36994C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{896185C5-0B01-4602-BACC-9EF789432E3A} = {02A76C2B-6852-4EE9-8783-760E9EE15C2A}
+		{A65C86F9-A8C7-4D49-9BE9-BD650ADFB7F0} = {02A76C2B-6852-4EE9-8783-760E9EE15C2A}
+		{5748CD99-E65A-4FAE-B9BA-7309954A09DC} = {02A76C2B-6852-4EE9-8783-760E9EE15C2A}
+		{719F8E7F-D2FD-4330-A69F-3BA3F36994C3} = {8747AD69-D634-434D-B454-AE6F8235D26C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A9FB64A-992B-43D1-BDFA-80E1F98FB692}
+	EndGlobalSection
+EndGlobal

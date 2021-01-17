@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  recipebook.api:
+    image: ${DOCKER_REGISTRY-}recipebookapi
+    build:
+      context: .
+      dockerfile: src/RecipeBook.Api/Dockerfile
+    ports:
+     - 5400:80
+     - 5401:443
+    depends_on:
+     - sqlserver
+  sqlserver:
+    restart: unless-stopped
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    environment:
+      SA_PASSWORD: "P@ssword123"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - "./data-mssql:/var/opt/mssql/data"
+    ports:
+      - 5050:1433
